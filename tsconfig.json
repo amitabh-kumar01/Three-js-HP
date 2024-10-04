@@ -27,7 +27,7 @@
     ".next/types/**/*.ts",
     "**/*.ts",
     "**/*.tsx"
-, "src/app/first/page.jsx", "src/components/pages/first/index.jsx", "src/components/pages/second/index.jsx", "src/components/pages/third/index.jsx"  ],
+, "src/app/first/page.jsx", "src/components/pages/first/index.jsx", "src/components/pages/second/index.jsx", "src/components/pages/third/index.jsx", "src/app/six/page.jsx"  ],
   "exclude": [
     "node_modules"
   ]

@@ -1,5 +1,6 @@
-export  {First} from "./pages/first";
-export { Second} from "./pages/second";
-export {Third} from "./pages/third";
+export  {First} from "./pages/one";
+export { Second} from "./pages/two";
+export {Third} from "./pages/three";
 export {Fourth} from "./pages/fourth";
 export {Fifth} from "./pages/five";
+export {Six} from "./pages/six";

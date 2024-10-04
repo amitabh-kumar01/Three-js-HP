@@ -4,7 +4,7 @@ import * as THREE from "three";
 import { FontLoader } from "three/examples/jsm/loaders/FontLoader";
 import { TextGeometry } from "three/examples/jsm/geometries/TextGeometry";
 import ScrollComp from "./ScrollComp";
-import { URLdata } from "../../second/components/assets/constant";
+import { URLdata } from "../../two/components/assets/constant";
 
 const ThirdComp= () => {
   const containerRef = useRef(null);

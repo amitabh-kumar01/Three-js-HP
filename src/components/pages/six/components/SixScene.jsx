@@ -1,10 +1,10 @@
-
 "use client";
 import { Canvas } from '@react-three/fiber';
 import { OrbitControls, Environment, PerspectiveCamera } from '@react-three/drei';
 import { EffectComposer, Bloom } from '@react-three/postprocessing';
 import TorusKnot from './Knot';
 import Particles from './Particales';
+import HorizontalParallax from './Horizontal'; 
 
 const Scene = () => {
   return (
@@ -15,6 +15,8 @@ const Scene = () => {
       
       <TorusKnot />
       <Particles />
+      
+      {/* <HorizontalParallax /> */}
 
       <OrbitControls 
         enableZoom={true} 
@@ -34,12 +36,12 @@ const Scene = () => {
       {/* Post-processing effects */}
       <EffectComposer>
         <Bloom
-          intensity={1.5} // Adjust the bloom intensity
-          width={300} // Render target width
-          height={300} // Render target height
-          kernelSize={3} // Kernel size for bloom
-          luminanceThreshold={0.5} // Threshold for luminance
-          luminanceSmoothing={0.1} // Smoothing for luminance
+          intensity={1.5}
+          width={300} 
+          height={300} 
+          kernelSize={3} 
+          luminanceThreshold={0.5}
+          luminanceSmoothing={0.1}
         />
       </EffectComposer>
     </Canvas>

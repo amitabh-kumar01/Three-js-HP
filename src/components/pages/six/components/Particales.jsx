@@ -23,7 +23,6 @@ const Particles = () => {
       colors[i + 2] = Math.random(); // Blue
     }
     particlesRef.current.geometry.attributes.color.needsUpdate = true;
-
     particlesRef.current.rotation.x += 0.001;
     particlesRef.current.rotation.y += 0.001;
   });

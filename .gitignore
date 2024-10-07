@@ -13,11 +13,8 @@
 /.next/
 /out/
 
-/src/components/
 
-/src/app/third
-/src/app/fourth
-/src/app/five
+
 # production
 /build
 

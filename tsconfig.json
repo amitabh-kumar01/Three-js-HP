@@ -27,7 +27,7 @@
     ".next/types/**/*.ts",
     "**/*.ts",
     "**/*.tsx"
-, "src/app/one/page.jsx", "src/components/pages/one/index.jsx", "src/components/pages/two/index.jsx", "src/components/pages/three/index.jsx", "src/app/six/page.jsx"  ],
+, "src/app/one/page.jsx", "src/components/pages/one/index.jsx", "src/components/pages/two/index.jsx", "src/components/pages/three/index.jsx", "src/app/six/page.jsx", "src/components/pages/landing/components/Header.jsx", "src/components/pages/landing/index.jsx"  ],
   "exclude": [
     "node_modules"
   ]
